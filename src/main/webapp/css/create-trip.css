@@ -1,0 +1,122 @@
+body {
+	background: #F7EDE1; 
+	font-family: 'Lato', sans-serif;
+	color: #FDFCFB;
+	text-align: center;
+}
+
+/* Style the form */
+#regForm {
+	/* background-color: #F8A434; */
+	background-image: url("https://colorlib.com/preview/theme/traveland/images/hotel-resto-2.jpg");
+	width: 450px;
+	margin: 1% auto;
+	padding: 40px;
+	width: 40%;
+	min-width: 300px;
+}
+
+.header {
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.description {
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 1.3em;
+	margin: -2px 0 45px;
+}
+
+button {
+	height: 44px;
+	padding: 5px;
+	border: none;
+}
+
+#email {
+	width: 55%;
+	height: 44px;
+	background: #FDFCFB;
+	font-family: inherit;
+	color: #737373;
+	letter-spacing: 1px;
+	text-indent: 5%;
+	border-radius: 5px 0 0 5px;
+	display: inline-block;
+}
+
+#countryField {
+	width: 55%;
+	height: 44px;
+	background: #FDFCFB;
+	font-family: inherit;
+	color: #737373;
+	letter-spacing: 1px;
+	text-indent: 5%;
+	border-radius: 5px 0 0 5px;
+	display: inline-block;
+}
+#submit {
+	width: 25%;
+	height: 36px;
+	background: black;
+	font-family: inherit;
+	font-weight: bold;
+	color: inherit;
+	letter-spacing: 1px;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	transition: background .3s ease-in-out;
+}
+#submit:hover {
+	background: #d45d7d;
+}
+input:focus {
+	outline: none;
+	outline: 2px solid #E86C8D;
+	box-shadow: 0 0 2px #E86C8D;
+}
+
+/* Style the input fields */
+input {
+	padding: 10px;
+	width: 100%;
+	font-size: 17px;
+	font-family: Raleway;
+	border: 1px solid #aaaaaa;
+}
+* /
+	/* Mark input boxes that gets an error on validation: */ 
+input.invalid {
+	background-color: #ffdddd;
+}
+/* Hide all steps by default: */
+.tab {
+	display: none;
+}
+/* Make circles that indicate the steps of the form: */
+.step {
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: black;
+	border: none;
+	border-radius: 50%;
+	display: inline-block;
+	opacity: 0.5;
+}
+/* Mark the active step: */
+.step.active {
+	opacity: 1;
+}
+/* Mark the steps that are finished and valid: */
+.step.finish {
+	background-color: #4CAF50;
+}
+
+p{
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 5px;	
+}
